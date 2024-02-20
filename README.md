@@ -7,7 +7,7 @@ su postgres -c '/usr/lib/postgresql/14/bin/pg_ctl start -D /etc/postgresql/14/ma
 exit
 # note if the above commands fail, use the following commands to reset the permissions on the postgresql folder
 sudo -i
-chown -R postgres:postgres postgresql/14/main
+chown -R postgres:postgres /workspaces/CS334DatabaseSystems/postgresql/14/main
 exit
 # then retry starting postgres
 
